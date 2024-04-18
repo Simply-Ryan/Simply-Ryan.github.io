@@ -1,0 +1,61 @@
+body
+{
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.category
+{
+    font-weight: bold;
+}
+
+.hobby
+{
+    font-size: 22px;
+}
+
+.border_under
+{
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+.question
+{
+    font-size: 20px;
+}
+
+/* Sidebar styling */
+.sidebar {
+  height: 100%;
+  width: 200px; /* Width of sidebar */
+  position: fixed;
+  top: 0; /* Positioning relative to top of page */
+  left: 0; /* Positioning relative to left of page */
+  background-color: #000000;
+  padding-top: 30px; /* Distance first element to top */
+}
+
+/* Sidebar text */
+.sidebar a {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+/* Sidebar text hovering */
+.sidebar a:hover {
+  background-color: #007bff;
+}
+
+/* Content area styling */
+.content {
+  margin-left: 200px; /* Must match the width of the sidebar */
+  padding: 20px; /* Content is the right part */
+}
